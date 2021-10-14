@@ -2,304 +2,452 @@
     {
         "name": "El",
         "required_level": 11,
-        "props_weapon": [
+        "weapon": [
             "+50 To Attack Rating",
             " +1 Light Radius"
         ],
-        "props_armor": [
+        "armor_helment": [
             "+15 Defense",
             " +1 To Light Radius"
         ],
-        "image": "runeEl.gif",
+        "shield": [],
+        "image": "el",
         "id": 0
     },
     {
         "name": "Eld",
         "required_level": 11,
-        "props_weapon": [
+        "weapon": [
             "+75% Damage To Undead",
             " +50 Attack Rating Against Undead"
         ],
-        "props_armor": [
-            "15% Slower Stamina Drain",
-            "7% Increased Chance of Blocking(Shields)"
+        "armor_helment": [
+            "15% Slower Stamina Drain"
         ],
-        "image": "runeEld.gif",
+        "shield": [
+            "7% Increased Chance of Blocking"
+        ],
+        "image": "eld",
         "id": 1
     },
     {
         "name": "Tir",
         "required_level": 13,
-        "props_weapon": "+2 To Mana After Each Kill",
-        "props_armor": "+2 To Mana After Each Kill",
-        "image": "runeTir.gif",
+        "weapon": [
+            "+2 To Mana After Each Kill"
+        ],
+        "armor_helment": [
+            "+2 To Mana After Each Kill"
+        ],
+        "shield": [],
+        "image": "tir",
         "id": 2
     },
     {
         "name": "Nef",
         "required_level": 13,
-        "props_weapon": "Knockback",
-        "props_armor": "+30 Defense Vs. Missile",
-        "image": "runeNef.gif",
+        "weapon": [
+            "Knockback"
+        ],
+        "armor_helment": [
+            "+30 Defense Vs. Missile"
+        ],
+        "shield": [],
+        "image": "nef",
         "id": 3
     },
     {
         "name": "Eth",
         "required_level": 15,
-        "props_weapon": "-25% To Target Defense",
-        "props_armor": "Regenerate Mana 15%",
-        "image": "runeEth.gif",
+        "weapon": [
+            "-25% To Target Defense"
+        ],
+        "armor_helment": [
+            "Regenerate Mana 15%"
+        ],
+        "shield": [],
+        "image": "eth",
         "id": 4
     },
     {
         "name": "Ith",
         "required_level": 15,
-        "props_weapon": "+9 To Maximum Damage",
-        "props_armor": "15% Damage Taken Goes to Mana",
-        "image": "runeIth.gif",
+        "weapon": [
+            "+9 To Maximum Damage"
+        ],
+        "armor_helment": [
+            "15% Damage Taken Goes to Mana"
+        ],
+        "shield": [],
+        "image": "ith",
         "id": 5
     },
     {
         "name": "Tal",
         "required_level": 17,
-        "props_weapon": "+75 Poison Damage Over 5 Seconds",
-        "props_armor": [
-            "Poison Resist 30%",
-            "Poison Resist 35% (Shields)"
+        "weapon": [
+            "+75 Poison Damage Over 5 Seconds"
         ],
-        "image": "runeTal.gif",
+        "armor_helment": [
+            "Poison Resist 30%"
+        ],
+        "shield": [
+            "Poison Resist 35%"
+        ],
+        "image": "tal",
         "id": 6
     },
     {
         "name": "Ral",
         "required_level": 19,
-        "props_weapon": "Adds 5-30 Fire Damage",
-        "props_armor": [
-            "Fire Resist 30%",
-            "Fire Resist 35% (Shields)"
+        "weapon": [
+            "Adds 5-30 Fire Damage"
         ],
-        "image": "runeRal.gif",
+        "armor_helment": [
+            "Fire Resist 30%"
+        ],
+        "shield": [
+            "Fire Resist 35%"
+        ],
+        "image": "ral",
         "id": 7
     },
     {
         "name": "Ort",
         "required_level": 21,
-        "props_weapon": "Adds 1-50 Lightning Damage",
-        "props_armor": [
-            "Lightning Resist 30%",
-            "Lightning Resist 35% (Shields)"
+        "weapon": [
+            "Adds 1-50 Lightning Damage"
         ],
-        "image": "runeOrt.gif",
+        "armor_helment": [
+            "Lightning Resist 30%"
+        ],
+        "shield": [
+            "Lightning Resist 35%"
+        ],
+        "image": "ort",
         "id": 8
     },
     {
         "name": "Thul",
         "required_level": 23,
-        "props_weapon": "Adds 3-14 Cold Damage - 3 Second Duration",
-        "props_armor": [
-            "Cold Resist 30%",
-            "Cold Resist 35% (Shields)"
+        "weapon": [
+            "Adds 3-14 Cold Damage - 3 Second Duration"
         ],
-        "image": "runeThul.gif",
+        "armor_helment": [
+            "Cold Resist 30%"
+        ],
+        "shield": [
+            "Cold Resist 35%"
+        ],
+        "image": "thul",
         "id": 9
     },
     {
         "name": "Amn",
         "required_level": 25,
-        "props_weapon": "7% Life Stolen Per Hit",
-        "props_armor": "Attacker Takes Damage of 14",
-        "image": "runeAmn.gif",
+        "weapon": [
+            "7% Life Stolen Per Hit"
+        ],
+        "armor_helment": [
+            "Attacker Takes Damage of 14"
+        ],
+        "shield": [],
+        "image": "amn",
         "id": 10
     },
     {
         "name": "Sol",
         "required_level": 27,
-        "props_weapon": "+9 To Minimum Damage",
-        "props_armor": "Damage Reduced By 7",
-        "image": "runeSol.gif",
+        "weapon": [
+            "+9 To Minimum Damage"
+        ],
+        "armor_helment": [
+            "Damage Reduced By 7"
+        ],
+        "shield": [],
+        "image": "sol",
         "id": 11
     },
     {
         "name": "Shael",
         "required_level": 29,
-        "props_weapon": "20% Increased Attack Speed",
-        "props_armor": [
-            "20% Faster Hit Recovery",
-            "20% Faster Block Rate (Shields)"
+        "weapon": [
+            "20% Increased Attack Speed"
         ],
-        "image": "runeShael.gif",
+        "armor_helment": [
+            "20% Faster Hit Recovery"
+        ],
+        "shield": [
+            "20% Faster Block Rate"
+        ],
+        "image": "shael",
         "id": 12
     },
     {
         "name": "Dol",
         "required_level": 31,
-        "props_weapon": "Hit Causes Monster To Flee 25%",
-        "props_armor": "Replenish Life +7",
-        "image": "runeDol.gif",
+        "weapon": [
+            "Hit Causes Monster To Flee 25%"
+        ],
+        "armor_helment": [
+            "Replenish Life +7"
+        ],
+        "shield": [],
+        "image": "dol",
         "id": 13
     },
     {
         "name": "Hel",
         "required_level": 0,
-        "props_weapon": "Requirements -20%",
-        "props_armor": "Requirements -20%",
-        "image": "runeHel.gif",
+        "weapon": [
+            "Requirements -20%"
+        ],
+        "armor_helment": [
+            "Requirements -20%"
+        ],
+        "shield": [],
+        "image": "hel",
         "id": 14
     },
     {
         "name": "Io",
         "required_level": 35,
-        "props_weapon": "+10 To Vitality",
-        "props_armor": "+10 To Vitality",
-        "image": "runeIo.gif",
+        "weapon": [
+            "+10 To Vitality"
+        ],
+        "armor_helment": [
+            "+10 To Vitality"
+        ],
+        "shield": [],
+        "image": "io",
         "id": 15
     },
     {
         "name": "Lum",
         "required_level": 37,
-        "props_weapon": "+10 To Energy",
-        "props_armor": "+10 To Energy",
-        "image": "runeLum.gif",
+        "weapon": [
+            "+10 To Energy"
+        ],
+        "armor_helment": [
+            "+10 To Energy"
+        ],
+        "shield": [],
+        "image": "lum",
         "id": 16
     },
     {
         "name": "Ko",
         "required_level": 39,
-        "props_weapon": "+10 To Dexterity",
-        "props_armor": "+10 To Dexterity",
-        "image": "runeKo.gif",
+        "weapon": [
+            "+10 To Dexterity"
+        ],
+        "armor_helment": [
+            "+10 To Dexterity"
+        ],
+        "shield": [],
+        "image": "ko",
         "id": 17
     },
     {
         "name": "Fal",
         "required_level": 41,
-        "props_weapon": "+10 To Strength",
-        "props_armor": "+10 To Strength",
-        "image": "runeFal.gif",
+        "weapon": [
+            "+10 To Strength"
+        ],
+        "armor_helment": [
+            "+10 To Strength"
+        ],
+        "shield": [],
+        "image": "fal",
         "id": 18
     },
     {
         "name": "Lem",
         "required_level": 43,
-        "props_weapon": "75% Extra Gold From Monsters",
-        "props_armor": "50% Extra Gold From Monsters",
-        "image": "runeLem.gif",
+        "weapon": [
+            "75% Extra Gold From Monsters"
+        ],
+        "armor_helment": [
+            "50% Extra Gold From Monsters"
+        ],
+        "shield": [],
+        "image": "lem",
         "id": 19
     },
     {
         "name": "Pul",
         "required_level": 45,
-        "props_weapon": [
+        "weapon": [
             "+75% Damage To Demons",
             " +100 Attack Rating Against Demons"
         ],
-        "props_armor": "+30% Enhanced Defense",
-        "image": "runePul.gif",
+        "armor_helment": [
+            "+30% Enhanced Defense"
+        ],
+        "shield": [],
+        "image": "pul",
         "id": 20
     },
     {
         "name": "Um",
         "required_level": 47,
-        "props_weapon": "25% Chance of Open Wounds",
-        "props_armor": [
-            "All Resistances +15(Armor/Helms)",
-            "All Resistances +22 (Shields)"
+        "weapon": [
+            "25% Chance of Open Wounds"
         ],
-        "image": "runeUm.gif",
+        "armor_helment": [
+            "All Resistances +15"
+        ],
+        "shield": [
+            "All Resistances +22"
+        ],
+        "image": "um",
         "id": 21
     },
     {
         "name": "Mal",
         "required_level": 49,
-        "props_weapon": "Prevent Monster Heal",
-        "props_armor": "Magic Damage Reduced By 7",
-        "image": "runeMal.gif",
+        "weapon": [
+            "Prevent Monster Heal"
+        ],
+        "armor_helment": [
+            "Magic Damage Reduced By 7"
+        ],
+        "shield": [],
+        "image": "mal",
         "id": 22
     },
     {
         "name": "Ist",
         "required_level": 51,
-        "props_weapon": "30% Better Chance of Getting Magic Items",
-        "props_armor": "25% Better Chance of Getting Magic Items",
-        "image": "runeIst.gif",
+        "weapon": [
+            "30% Better Chance of Getting Magic Items"
+        ],
+        "armor_helment": [
+            "25% Better Chance of Getting Magic Items"
+        ],
+        "shield": [],
+        "image": "ist",
         "id": 23
     },
     {
         "name": "Gul",
         "required_level": 53,
-        "props_weapon": "20% Bonus To Attack Rating",
-        "props_armor": "5% To Maximum Poison Resist",
-        "image": "runeGul.gif",
+        "weapon": [
+            "20% Bonus To Attack Rating"
+        ],
+        "armor_helment": [
+            "5% To Maximum Poison Resist"
+        ],
+        "shield": [],
+        "image": "gul",
         "id": 24
     },
     {
         "name": "Vex",
         "required_level": 55,
-        "props_weapon": "7% Mana Stolen Per Hit",
-        "props_armor": "5% To Maximum Fire Resist",
-        "image": "runeVex.gif",
+        "weapon": [
+            "7% Mana Stolen Per Hit"
+        ],
+        "armor_helment": [
+            "5% To Maximum Fire Resist"
+        ],
+        "shield": [],
+        "image": "vex",
         "id": 25
     },
     {
         "name": "Ohm",
         "required_level": 57,
-        "props_weapon": "+50% Enhanced Damage",
-        "props_armor": "5% To Maximum Cold Resist",
-        "image": "runeOhm.gif",
+        "weapon": [
+            "+50% Enhanced Damage"
+        ],
+        "armor_helment": [
+            "5% To Maximum Cold Resist"
+        ],
+        "shield": [],
+        "image": "ohm",
         "id": 26
     },
     {
         "name": "Lo",
         "required_level": 59,
-        "props_weapon": "20% Deadly Strike",
-        "props_armor": "5% To Maximum Lightning Resist",
-        "image": "runeLo.gif",
+        "weapon": [
+            "20% Deadly Strike"
+        ],
+        "armor_helment": [
+            "5% To Maximum Lightning Resist"
+        ],
+        "shield": [],
+        "image": "lo",
         "id": 27
     },
     {
         "name": "Sur",
         "required_level": 61,
-        "props_weapon": "Hit Blinds Target",
-        "props_armor": [
-            "Maximum Mana 5%",
-            "+50 To Mana (Shields)"
+        "weapon": [
+            "Hit Blinds Target"
         ],
-        "image": "runeSur.gif",
+        "armor_helment": [
+            "Maximum Mana 5%"
+        ],
+        "shield": [
+            "+50 To Mana"
+        ],
+        "image": "sur",
         "id": 28
     },
     {
         "name": "Ber",
         "required_level": 63,
-        "props_weapon": "20% Chance of Crushing Blow",
-        "props_armor": "Damage Reduced by 8%",
-        "image": "runeBer.gif",
+        "weapon": [
+            "20% Chance of Crushing Blow"
+        ],
+        "armor_helment": [
+            "Damage Reduced by 8%"
+        ],
+        "shield": [],
+        "image": "ber",
         "id": 29
     },
     {
         "name": "Jah",
         "required_level": 65,
-        "props_weapon": "Ignore Target's Defense",
-        "props_armor": [
-            "Increase Maximum Life 5%",
-            "+50 Life (Shields)"
+        "weapon": [
+            "Ignore Target's Defense"
         ],
-        "image": "runeJah.gif",
+        "armor_helment": [
+            "Increase Maximum Life 5%"
+        ],
+        "shield": [
+            "+50 Life"
+        ],
+        "image": "jah",
         "id": 30
     },
     {
         "name": "Cham",
         "required_level": 67,
-        "props_weapon": "Freeze Target +3",
-        "props_armor": "Cannot Be Frozen",
-        "image": "runeCham.gif",
+        "weapon": [
+            "Freeze Target +3"
+        ],
+        "armor_helment": [
+            "Cannot Be Frozen"
+        ],
+        "shield": [],
+        "image": "cham",
         "id": 31
     },
     {
         "name": "Zod",
         "required_level": 69,
-        "props_weapon": "Indestructible",
-        "props_armor": "Indestructible",
-        "image": "runeZod.gif",
+        "weapon": [
+            "Indestructible"
+        ],
+        "armor_helment": [
+            "Indestructible"
+        ],
+        "shield": [],
+        "image": "zod",
         "id": 32
     }
 ]
